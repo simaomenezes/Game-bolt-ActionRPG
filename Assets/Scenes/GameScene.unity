@@ -13452,6 +13452,7 @@ GameObject:
   - component: {fileID: 2100076361}
   - component: {fileID: 2100076360}
   - component: {fileID: 2100076359}
+  - component: {fileID: 2100076362}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -13550,7 +13551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"healthAmount","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!95 &2100076361
 Animator:
@@ -13571,3 +13572,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2100076362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100076355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b40c35518505b054bad7b0f4d0ead7cf, type: 2}

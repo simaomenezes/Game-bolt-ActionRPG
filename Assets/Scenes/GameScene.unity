@@ -1571,6 +1571,7 @@ GameObject:
   - component: {fileID: 430034938}
   - component: {fileID: 430034937}
   - component: {fileID: 430034939}
+  - component: {fileID: 430034940}
   m_Layer: 0
   m_Name: EnemySword
   m_TagString: Untagged
@@ -1666,7 +1667,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430034932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
@@ -1706,6 +1707,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: a06ebcd3bb7a3db45875b8ef9d300e84, type: 2}
+--- !u!114 &430034940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430034932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 685d6542582a5c4458d3921348552cf0, type: 2}
 --- !u!1 &465777278
 GameObject:
   m_ObjectHideFlags: 0
